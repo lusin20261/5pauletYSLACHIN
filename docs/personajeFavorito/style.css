@@ -2,7 +2,7 @@
   PALETA DE COLORES
 ======================================*/
 :root {
-    --color-primario: #5b5ff5;
+    --color-primario: #1d8ce7;
     --color-secundario: #ff8f70;
 }
 
@@ -46,7 +46,7 @@ body {
         var(--color-secundario)
     );
 
-    color: white;
+    color: rgb(58, 107, 211);
 }
 
 .hero-content {
@@ -62,7 +62,7 @@ body {
         0 0 10px rgba(255,255,255,.5),
         0 0 30px rgba(255,255,255,.3);
 
-    animation: flotar 3s ease-in-out infinite;
+    animation: flotar 0.00001s ease-in-out infinite;
 }
 
 .hero p {
